@@ -1,2 +1,28 @@
 /* * * * * * * * * * * * * * SECTION 1 * * * * * * * * * * * * * * */
-// testing
+.section-content-inside {
+  padding: 1em;
+  width: 100%;
+  border: 1px solid maroon;
+  border-radius: 15px;
+  margin: 1em 0;
+  @include flexbox(
+    $placeItems: center,
+    $placeContent: space-around,
+    $direction: row,
+    $wrap: wrap
+  );
+}
+
+.section-content-inside .left,
+.section-content-inside .right {
+  width: 50%;
+  text-align: left;
+  padding: 1em;
+  position: relative;
+  @include flexbox(
+    $placeItems: center,
+    $placeContent: center,
+    $direction: column,
+    $wrap: wrap
+  );
+}
