@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * * SECTION 1 * * * * * * * * * * * * * * */
 .section-content-inside {
-  padding: 1em;
+  padding: 15px;
   width: 100%;
   border: 1px solid maroon;
   border-radius: 15px;
@@ -17,7 +17,7 @@
 .section-content-inside .right {
   width: 50%;
   text-align: left;
-  padding: 1em;
+  padding: 15px;
   position: relative;
   @include flexbox(
     $placeItems: center,
@@ -25,4 +25,21 @@
     $direction: column,
     $wrap: wrap
   );
+}
+
+/* * * * * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * * * */
+@media only screen and (max-width: 600px) {
+  .section-content-inside {
+    @include flexbox(
+      $placeItems: center,
+      $placeContent: center,
+      $direction: column,
+      $wrap: wrap
+    );
+  }
+
+  .section-content-inside .left,
+  .section-content-inside .right {
+    width: 100%;
+  }
 }
