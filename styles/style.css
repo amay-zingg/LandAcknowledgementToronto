@@ -278,7 +278,7 @@ html {
 /* * * * * * * * * * * * * * AFTER NORMALIZE * * * * * * * * * * * * * * */
 ul,
 li {
-  list-style: none;
+  list-style: circle;
 }
 
 h1,
