@@ -473,8 +473,8 @@ section h1 span {
 }
 
 .section-content-inside .left {
-  -webkit-box-shadow: 2px 2px 2px #0a0a0a;
-          box-shadow: 2px 2px 2px #0a0a0a;
+  background: #e7e7e7;
+  border-radius: 5px;
 }
 
 /* * * * * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * * * */
