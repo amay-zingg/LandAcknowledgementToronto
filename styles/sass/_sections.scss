@@ -27,9 +27,15 @@
   );
 }
 
+.box {
+  margin: 0.5em;
+}
+
 /* * * * * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * * * */
 @media only screen and (max-width: 600px) {
   .section-content-inside {
+    margin: 0;
+    border: none;
     @include flexbox(
       $placeItems: center,
       $placeContent: center,
