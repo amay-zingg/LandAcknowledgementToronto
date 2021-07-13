@@ -314,6 +314,10 @@ a {
   line-height: 2.7rem;
 }
 
+p {
+  margin: 15px 0;
+}
+
 a {
   text-decoration: none;
 }

@@ -260,6 +260,10 @@ a {
   @include fontSize(1.8rem);
 }
 
+p {
+  margin: 15px 0;
+}
+
 // * * * * LINKS
 a {
   text-decoration: none;
