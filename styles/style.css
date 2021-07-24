@@ -539,6 +539,38 @@ section h1 span {
   }
 }
 
+.headerContainer {
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.slice {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.slice img {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
+
+.slice div {
+  position: absolute;
+  z-index: 10;
+  background-repeat: no-repeat;
+  -webkit-transform: rotateY(-50deg) scale(0.5);
+          transform: rotateY(-50deg) scale(0.5);
+  -webkit-transition: all 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: all 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  opacity: 0;
+}
+
 /* * * * * * * * * * * * * * SECTION 1 * * * * * * * * * * * * * * */
 .section-content-inside {
   padding: 15px;
