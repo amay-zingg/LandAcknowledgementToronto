@@ -42,6 +42,6 @@ window.onload = function () {
   gsap.to(["#slice div"], {
     autoAlpha: 1,
     y: 0,
-    scale: 1.05,
+    scale: 1.15,
   });
 };

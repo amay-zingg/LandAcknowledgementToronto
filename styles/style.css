@@ -540,6 +540,7 @@ section h1 span {
 }
 
 .headerContainer {
+  max-width: 1024px;
   margin: 0;
   display: -ms-grid;
   display: grid;
@@ -547,8 +548,8 @@ section h1 span {
 }
 
 .slice {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: auto;
   position: relative;
 }
 
