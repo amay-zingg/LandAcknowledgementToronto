@@ -321,7 +321,7 @@ main {
 
 section {
   width: 100%;
-  padding: 0.5em;
+  padding: 10px;
   @include flexbox(
     $placeItems: center,
     $placeContent: center,
@@ -336,7 +336,7 @@ section h1 span {
 }
 
 .section-content {
-  padding: 1em;
+  padding: 10px;
   width: 100%;
   border: 1px solid maroon;
   border-radius: 15px;
