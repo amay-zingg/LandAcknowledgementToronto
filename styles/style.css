@@ -542,8 +542,8 @@ section h1 span {
 }
 
 .headerContainer {
-  max-width: 1024px;
-  margin: 0;
+  width: 100%;
+  margin: 1em 0;
   display: -ms-grid;
   display: grid;
   place-items: center;
